@@ -1,13 +1,13 @@
 {
-  "name": "No Alias",
-  "version": "0.1",
+  "name": "rmBanner",
+  "version": "1.0",
   "permissions": [
-    "localhost:3000/*"
+    "http://localhost:3000/*"
   ],
   "content_scripts": [
     {
-      "matches": ["localhost:3000/*"],
-      "js": ["myscript.js"],
+      "matches": ["http://localhost:3000/*"],
+      "js": ["content.js"],
       "run_at": "document_end"
     }
   ],
