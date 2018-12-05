@@ -1,5 +1,6 @@
 {
   "name": "rmBanner",
+  "description": "removes the annoying banner that asks you to download the app when developing locally",
   "version": "1.0",
   "permissions": [
     "http://localhost:3000/*"
